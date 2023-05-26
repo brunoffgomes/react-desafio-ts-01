@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background: var(--gray-700);
+
+}
+
+.img {
+    width: 126px;
+    height: 48px;
+    margin-top: 72px;
+}
+
+
+
+

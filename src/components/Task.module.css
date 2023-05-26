@@ -1,0 +1,22 @@
+
+.task > p {
+    /*color: var(--gray-100);*/
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.task > input[type=checkbox]{
+    left: 13.64%;
+    right: 13.64%;
+    top: 13.64%;
+    bottom: 13.64%;
+    background: var(--blue);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+.taskManager {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px;
+    gap: 8px;
+
+    width: 736px;
+
+    margin-left: 450px;
+    margin-top: calc(0px - 2.5rem - 20px);
+
+    left: calc(50% - 736px/2);
+}
+
+.input {
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+
+    color: var(--gray-300);
+
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.btnCriar[type=submit] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+
+    width: 90px;
+
+    background: var(--blue-dark);
+    border-radius: 8px;
+    cursor: pointer;
+
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: var(--gray-100);
+}
+
+.btnCriar[type=submit]:hover {
+    background: var(--blue);
+
+}
+
+.taskslist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+
+    width: 736px;
+
+    margin-top: 64px;
+    margin-left: 450px;
+}
